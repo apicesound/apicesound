@@ -263,7 +263,7 @@ body {
 
 .packs-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
 }
 
@@ -523,6 +523,10 @@ body {
   .nosotros-grid,
   .packs-grid,
   .djs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .packs-grid {
     grid-template-columns: 1fr;
   }
 
